@@ -1,23 +1,14 @@
+// import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.util.Scanner;
+// import org.junit.jupiter.api.Test;
 
 public class Main {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-
-    System.out.print("Podaj pierwszą liczbę: ");
-    int liczba1 = scanner.nextInt();
-
-    System.out.print("Podaj drugą liczbę: ");
-    int liczba2 = scanner.nextInt();
-
-    int suma = liczba1 + liczba2;
-    System.out.println("Suma: " + suma);
-
-    scanner.close();
+    System.out.println("Hello world!");
   }
-}
+
   // @Test
   // void addition() {
   //     assertEquals(2, 1 + 1);
   // }
+}
