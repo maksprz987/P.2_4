@@ -13,6 +13,9 @@ public class Main {
     int c = scanner.nextInt();
     int pole = (a*b)/2;
     System.out.println("Pole trójkąta prostokątnego wynosi: " + pole);
+      if (a <= 0 || b <= 0 || c <= 0) {
+          System.out.println("Złe dane");
+      } else {
     if (a*a + b*b == c*c) {
     System.out.println("Trójkąt jest prostokątny.");
     }
@@ -21,7 +24,10 @@ public class Main {
 
       }
 
+    }
   }
+}    
+
   
 
 
@@ -30,4 +36,3 @@ public class Main {
   // void addition() {
   //     assertEquals(2, 1 + 1);
   // }
-}
