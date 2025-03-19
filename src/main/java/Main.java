@@ -13,12 +13,14 @@ public class Main {
     int c = scanner.nextInt();
     int pole = (a*b)/2;
     System.out.println("Pole trójkąta prostokątnego wynosi: " + pole);
-    if (a^2 + b^2 == c^2);  
+    if (a*a + b*b == c*c) {
     System.out.println("Trójkąt jest prostokątny.");
-    else;
-    
-    System.out.println("Trójkąt nie jest prostokątny.");
-    
+    }
+      else{
+      System.out.println("Trójkąt nie jest prostokątny.");
+
+      }
+
   }
   
 
